@@ -176,7 +176,7 @@ public class PracticeProblemTest {
             Class<?> rectangleClass = Class.forName("Rectangle");
             Method method = rectangleClass.getDeclaredMethod("perimeter");
             Object rectangle = createRectangle(5.2, 0);
-            assertEquals(0, (double)method.invoke(rectangle), 0.01);
+            assertEquals(10.4, (double)method.invoke(rectangle), 0.01);
         } catch (ClassNotFoundException e) {
             fail("Rectangle class does not exist");
         } catch (NoSuchMethodException e) {
