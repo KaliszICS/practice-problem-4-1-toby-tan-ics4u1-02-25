@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        // You can test the classes here
     }
 }
 
-// Rectangle class
 class Rectangle {
     private double length;
     private double width;
@@ -31,7 +29,6 @@ class Rectangle {
     }
 }
 
-// Circle class
 class Circle {
     private double radius;
     private static final double PI = 3.14;
@@ -53,7 +50,6 @@ class Circle {
     }
 }
 
-// Person class
 class Person {
     private String name;
     private int age;
